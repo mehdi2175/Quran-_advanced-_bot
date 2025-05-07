@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>قرآن پیشرفته</title>
+    <style>
+        body { font-family: Tahoma, sans-serif; background-color: #f0f0f0; text-align: center; padding: 20px; direction: rtl; }
+        h1 { color: #2c3e50; }
+        select, button { padding: 10px; margin-top: 15px; font-size: 16px; }
+        .box { background: white; border-radius: 10px; padding: 20px; max-width: 500px; margin: auto; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>قرآن کریم - نسخه پیشرفته</h1>
+        <p>لطفاً زبان دلخواه خود را انتخاب کنید:</p>
+        <select id="languageSelect">
+            <option value="fa">فارسی</option>
+            <option value="en">English</option>
+            <option value="ur">اردو</option>
+            <option value="fr">Français</option>
+        </select>
+        <br>
+        <button onclick="loadQuran()">مشاهده قرآن</button>
+    </div>
+
+    <script>
+        function loadQuran() {
+            const lang = document.getElementById('languageSelect').value;
+            alert("نمایش قرآن به زبان: " + lang);
+            // اینجا می‌توان نمایش آیات و ترجمه‌ها را اضافه کرد
+        }
+    </script>
+</body>
+</html>

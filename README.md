@@ -1,2 +1,3 @@
-# Quran-_advanced-_bot
-A multilingual Quran Telegram Bot with webviw
+# پروژه قرآن پیشرفته با پایتون
+توسط مهدی وفائی پور
+ایمیل: mehdi.vafaeipour@gmail.com
